@@ -1,0 +1,46 @@
+{
+  "name": "appName",
+  "dockerComposeFile": [
+    "../compose.yaml"
+  ],
+  "service": "work",
+  "workspaceFolder": "/work",
+  "remoteUser": "vscode",
+  "remoteEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+  },
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "rifi2k.format-html-in-php",
+        "redhat.vscode-yaml",
+        "adrianwilczynski.alpine-js-intellisense",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint",
+        "timonwong.shellcheck",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "Gruntfuggly.todo-tree",
+        "hediet.vscode-drawio",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "neilbrayfield.php-docblocker",
+        "onecentlin.laravel-extension-pack",
+        "bradlc.vscode-tailwindcss",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "bmewburn.vscode-intelephense-client",
+        "vmsynkov.colonize",
+        "streetsidesoftware.code-spell-checker",
+        "42Crunch.vscode-openapi"
+      ],
+      "settings": {
+        "dev.containers.copyGitConfig": true,
+        "todo-tree.filtering.excludeGlobs": [
+          "**/node_modules/*/**",
+          "docker-debian.sh"
+        ]
+      }
+    }
+  }
+}

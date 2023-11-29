@@ -1,0 +1,12 @@
+node_modules
+*.md
+
+# Docker
+*Dockerfile*
+*.yaml*
+*.yml*
+
+# Git
+*.gitignore
+*.gitkeep
+*.keep
